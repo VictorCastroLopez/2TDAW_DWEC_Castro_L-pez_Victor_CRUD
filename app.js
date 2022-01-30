@@ -189,7 +189,7 @@ const añadir_prod=(tienda)=>{
     // Lo meto en el tr
     nueva_fila.appendChild(col_imagen);
 
-    // Td para el descripción del producto
+    // Td para la fecha del producto
     let col_fecha=document.createElement("td");
     col_fecha.innerText=tienda["fecha"];
     col_fecha.classList.add("text-center","align-middle");
@@ -325,7 +325,7 @@ boton_añadir.addEventListener("click",
             document.documentElement.scrollTop = document.documentElement.scrollHeight;
             form_añadir.classList.remove("d-flex");
             form_añadir.classList.add("d-none");
-			// mensajeOk("Añadido correctamente");
+			mensajeOk("Añadido correctamente");
         }
     }
 )
@@ -381,7 +381,7 @@ b_editar.addEventListener("click",
             )
             form_editar.classList.remove("d-flex");
             form_editar.classList.add("d-none");
-			// mensajeOk("Editado correctamente");
+			mensajeOk("Editado correctamente");
         }
     }
 );

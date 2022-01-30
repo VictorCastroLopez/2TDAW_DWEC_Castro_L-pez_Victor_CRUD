@@ -8,7 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script type="text/javascript" src="datos.js"></script>
-    <!-- <script type="text/javascript" src="toast.js"></script> -->
+    <script type="text/javascript" src="toast.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="app.js" defer></script>
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -140,59 +141,9 @@
         <!-- Mensaje informativo -->
         <div id="mensaje" style="z-index: 9999;" class="fixed-top  mx-auto mt-5 toast text-center" data-delay="3000" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header w-100">
-            <img src="info.jpg" width="8%" class="mr-2" >
             <strong class="w-100 mr-auto">Mensaje informativo</strong>
           </div>
         </div>
-
-        
-
-
-
-
-
-
-        <!-- <div class="modal fade" id="editarModal" tabindex="-1" role="dialog" aria-labelledby="editarModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class=" modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="editarModalLabel">Editar datos de libro</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true"></span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <form id="libro-editar">
-                  <input type="hidden" id="claveLibro">
-                  <div class="form-group">
-                    <label for="recipient-name" class="col-form-label">Titulo</label>
-                    <input type="text" class="form-control" id="editarTitulo">
-                  </div>
-                  <div class="form-group">
-                    <label for="message-text" class="col-form-label">Autor</label>
-                    <input type="text" class="form-control" id="editarAutor">
-                  </div>
-                  <div class="form-group">
-                    <label for="message-text" class="col-form-label">Precio</label>
-                    <input type="text" class="form-control" id="editarPrecio">
-                  </div>
-                  <div class="form-group">
-                    <label for="message-text" class="col-form-label">Portada</label>
-                    <input type="text" class="form-control" id="editarPortada">
-                  </div>
-                  <div class="form-group">
-                    <label for="message-text" class="col-form-label">Enlace de compra</label>
-                    <input type="text"class="form-control" id="editarComprar">
-                  </div>
-                </form>
-              </div>
-              <div class="modal-footer">
-                <input type="button" class="btn btn-secondary" data-dismiss="modal" value="Cancelar">
-                <input type="submit" id="editar" class="btn btn-primary" value="Actualizar datos">
-              </div>
-            </div>
-          </div>
-        </div> -->
     </main>
     <footer>
 
